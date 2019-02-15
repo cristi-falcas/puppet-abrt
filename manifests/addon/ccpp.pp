@@ -22,8 +22,8 @@
 #
 class abrt::addon::ccpp (
   $package_ensure      = $abrt::package_ensure,
-  $createcorebacktrace = 'no',
-  $savefullcore        = 'yes',
+  #$createcorebacktrace = 'no',
+  #$savefullcore        = 'yes',
   $makecompatcore      = 'yes',
   $savebinaryimage     = 'no',
   $verboselog          = 2,
