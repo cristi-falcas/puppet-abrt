@@ -7,8 +7,6 @@ CLOBBER.include('.tmp', '.librarian')
 
 require 'puppetlabs_spec_helper/rake_tasks'
 
-require 'puppet-lint/tasks/puppet-lint'
-
 task :default => [:clean, :spec]
 
 PuppetLint.configuration.fail_on_warnings = true
