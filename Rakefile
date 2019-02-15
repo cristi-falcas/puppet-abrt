@@ -1,4 +1,4 @@
-require 'bundler'
+# require 'bundler'
 Bundler.require(:rake)
 require 'rake/clean'
 
