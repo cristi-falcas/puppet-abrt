@@ -6,9 +6,9 @@
 #
 # $package_ensure::                 Set to "installed", "latest" or any other allowed method for package type
 #
-# $createcorebacktrac
+# $createcorebacktrace::            Used for
 #
-# $savefullcore
+# $savefullcore::                   Used for
 #
 # $makecompatcore::                 If you also want to dump file named "core"
 #                                   in crashed process' current dir, set to "yes"
