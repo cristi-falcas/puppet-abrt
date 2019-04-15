@@ -1,3 +1,8 @@
+
+# DEPRECATED.
+# Please use https://github.com/jewelnuruddin/puppet-abrt
+
+
 # abrt
 [![Build Status](https://travis-ci.org/cristifalcas/puppet-abrt.png?branch=master)](https://travis-ci.org/cristifalcas/puppet-abrt)
 
