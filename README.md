@@ -21,8 +21,8 @@ It's main purpose is to ease the process of reporting an issue and finding a sol
 
     class { 'abrt':
       package_ensure       => 'latest',
-      openGPGCheck         => 'no',
-      autoreportingEnabled => 'yes',
+      open_gpg_check         => 'no',
+      autoreporting_enabled => 'yes',
     }
 
     include abrt::addon::ccpp
